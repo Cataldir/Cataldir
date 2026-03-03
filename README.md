@@ -26,8 +26,8 @@ class RicardoBuilder(Builder):
 
     def add_education(self):
         self._ricardo["education"] = [
-            "M.Sc. Mathematics — USP (Optimization, ODE)",
             "M.Sc. Applied Economics — UFRGS (Applied Microeconomics, Labor Economics)",
+            "Graduate Studies Mathematics — USP (Optimization, ODE)",
             "Specialization — IMPA (Pure Mathematics)",
             "B.A. Economics — Mackenzie (Behavioral Economics)",
         ]
@@ -45,7 +45,7 @@ class RicardoBuilder(Builder):
     def add_achievements(self):
         self._ricardo["achievements"] = [
             "Academic Coordinator — ML Engineering @ FIAP",
-            "Creator of A.M.A.N.D.A (AI Agents Management & Operations)",
+            "US$180M+ revenue-influenced AI solutions",
             "Arctic Code Vault Contributor",
             "Pull Shark x3 | Pair Extraordinaire x2",
         ]
@@ -79,7 +79,7 @@ ricardo = (
 - **Build** AI-powered enterprise solutions at Microsoft (US$180M+ revenue influenced)
 - **Teach** Machine Learning Engineering & Kubernetes Advanced at FIAP
 - **Research** context engineering and AI governance (106+ academic citations)
-- **Create** A.M.A.N.D.A — AI Agents Management and Operations framework
+- **Ship** Azure Samples: Holiday Peak Hub, Tutor, Tayra
 - **Write** about AI, microservices, and human-AI collaboration on [Medium](https://medium.com/@cataldi.ricardo)
 
 ## 🎓 Education & Certifications
@@ -100,7 +100,7 @@ ricardo = (
 flowchart TB
     subgraph edu["📚 Education"]
         direction LR
-        msc1["🎓 M.Sc. Mathematics<br>USP<br>Optimization<br>ODE"] ~~~ msc2["🎓 M.Sc. Economics<br>UFRGS<br>Applied Microeconomics<br>Labor Economics"] ~~~ impa["📐 Specialization<br>IMPA<br>Pure Mathematics"] ~~~ ba["🎓 B.A. Economics<br>Mackenzie<br>Behavioral Economics"]
+        msc2["🎓 M.Sc. Economics<br>UFRGS<br>Applied Microeconomics<br>Labor Economics"] ~~~ msc1["📚 Graduate Studies<br>USP<br>Mathematics<br>Optimization, ODE"] ~~~ impa["📐 Specialization<br>IMPA<br>Pure Mathematics"] ~~~ ba["🎓 B.A. Economics<br>Mackenzie<br>Behavioral Economics"]
     end
 
     subgraph certs["☁️ Azure Certified"]
@@ -120,7 +120,7 @@ flowchart TB
 |---------|-------------|------|
 | **Agentic Microservices** | Book on AI agent architecture patterns | Research, Writing |
 | **Context Engineering** | Research paper on optimal AI context | LaTeX, Theory |
-| **A.M.A.N.D.A** | AI Agents Management & Operations framework | Python, Governance |
+| **Holiday Peak Hub** | 21 AI agents for retail commerce (Azure Sample) | Python, FastAPI, MCP |
 | **k8savancado** | Kubernetes Advanced course (9 modules) | Rust, Helm, KEDA |
 
 ## 🛠️ Tech Stack
