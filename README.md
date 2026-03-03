@@ -1,9 +1,3 @@
-# GitHub Profile README
-
-> Copy this content to your GitHub profile repository (github.com/Cataldir/Cataldir)
-
----
-
 # Hey, I'm Ricardo Cataldi 👋
 
 ```python
