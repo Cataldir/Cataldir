@@ -26,17 +26,17 @@ class RicardoBuilder(Builder):
 
     def add_education(self):
         self._ricardo["education"] = [
-            "M.Sc. Mathematics — USP (Monte Carlo, Brownian Motion)",
-            "M.Sc. Applied Economics — UFRGS (Spatial Economics)",
+            "M.Sc. Mathematics — USP (Optimization, ODE)",
+            "M.Sc. Applied Economics — UFRGS (Applied Microeconomics, Labor Economics)",
             "Specialization — IMPA (Pure Mathematics)",
-            "B.A. Economics — Mackenzie",
+            "B.A. Economics — Mackenzie (Behavioral Economics)",
         ]
         return self
 
     def add_expertise(self):
         self._ricardo["expertise"] = {
-            "languages": ["Python", "TypeScript", "Go", "SQL"],
-            "ai_ml": ["Semantic Kernel", "PyTorch", "Recommendation Systems", "Context Engineering"],
+            "languages": ["Python", "TypeScript", "Rust", "C++"],
+            "ai_ml": ["Agent Framework", "PyTorch", "Recommendation Systems", "Context Engineering"],
             "cloud": ["Azure (DP-600, AZ-104)", "Kubernetes", "Bicep", "Terraform"],
             "domains": ["AI Agents", "MLOps", "Event-Driven Architecture", "AI Governance"],
         }
