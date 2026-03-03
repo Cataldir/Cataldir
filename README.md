@@ -125,7 +125,7 @@ flowchart TB
 
 ## 🛠️ Tech Stack
 
-**Languages:** Python • TypeScript • Go • SQL
+**Languages:** Python • TypeScript • Rust • C++
 
 **AI/ML:** Semantic Kernel • PyTorch • TensorFlow • FastAPI • Recommendation Systems
 
