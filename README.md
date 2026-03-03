@@ -84,13 +84,30 @@ ricardo = (
 
 ## 🎓 Education & Certifications
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│  M.Sc. Mathematics │  M.Sc. Economics │  IMPA         │  Azure Certified   │
-│  ════════════════  │  ══════════════  │  ════════     │  ════════════════  │
-│  USP - Monte Carlo │  UFRGS - Spatial │  Pure Math    │  DP-600 | AZ-104   │
-│  Brownian Motion   │  Economics       │  Foundations  │  AZ-900 | AI-900   │
-└─────────────────────────────────────────────────────────────────────────────┘
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {
+  'primaryColor': '#00ff00',
+  'primaryBorderColor': '#00cc00',
+  'secondaryColor': '#00ffff',
+  'tertiaryColor': '#0077ff',
+  'lineColor': '#90EE90'
+}}}%%
+flowchart LR
+    subgraph edu["📚 Education"]
+        msc1["🎓 M.Sc. Mathematics\nUSP\nOptimization on Banach Spaces"]
+        msc2["🎓 M.Sc. Economics\nUFRGS\nApplied Microeconomics\nLabor Economics"]
+        impa["📐 Specialization\nIMPA\nPure Mathematics"]
+        ba["🎓 B.A. Economics\nMackenzie"]
+    end
+    
+    subgraph certs["☁️ Azure Certified"]
+        dp600["DP-600"]
+        az104["AZ-104"]
+        az900["AZ-900"]
+        ai900["AI-900"]
+    end
+    
+    edu --> certs
 ```
 
 ## 🔬 Current Focus
