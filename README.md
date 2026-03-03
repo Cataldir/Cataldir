@@ -163,9 +163,7 @@ flowchart TB
 
 ## 🏆 Recognition
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Cataldir&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
-</p>
+![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Cataldir&theme=default)
 
 **GitHub Achievements:** Arctic Code Vault Contributor • Pull Shark x3 • Pair Extraordinaire x2 • YOLO
 
