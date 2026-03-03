@@ -1,3 +1,9 @@
+# GitHub Profile README
+
+> Copy this content to your GitHub profile repository (github.com/Cataldir/Cataldir)
+
+---
+
 # Hey, I'm Ricardo Cataldi 👋
 
 ```python
@@ -86,28 +92,32 @@ ricardo = (
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {
-  'primaryColor': '#00ff00',
-  'primaryBorderColor': '#00cc00',
-  'secondaryColor': '#00ffff',
-  'tertiaryColor': '#0077ff',
-  'lineColor': '#90EE90'
+  'background': '#f5f5f5',
+  'primaryColor': '#dbeafe',
+  'primaryBorderColor': '#93c5fd',
+  'primaryTextColor': '#1e293b',
+  'secondaryColor': '#e0f2fe',
+  'tertiaryColor': '#f0f9ff',
+  'lineColor': '#64748b',
+  'clusterBkg': '#f5f5f5',
+  'clusterBorder': '#cbd5e1',
+  'titleColor': '#166534'
 }}}%%
-flowchart LR
+flowchart TB
     subgraph edu["📚 Education"]
-        msc1["🎓 M.Sc. Mathematics\nUSP\nOptimization on Banach Spaces"]
-        msc2["🎓 M.Sc. Economics\nUFRGS\nApplied Microeconomics\nLabor Economics"]
-        impa["📐 Specialization\nIMPA\nPure Mathematics"]
-        ba["🎓 B.A. Economics\nMackenzie"]
+        direction LR
+        msc1["🎓 M.Sc. Mathematics<br>USP<br>Optimization<br>ODE"] ~~~ msc2["🎓 M.Sc. Economics<br>UFRGS<br>Applied Microeconomics<br>Labor Economics"] ~~~ impa["📐 Specialization<br>IMPA<br>Pure Mathematics"] ~~~ ba["🎓 B.A. Economics<br>Mackenzie<br>Behavioral Economics"]
     end
-    
+
     subgraph certs["☁️ Azure Certified"]
-        dp600["DP-600"]
-        az104["AZ-104"]
-        az900["AZ-900"]
-        ai900["AI-900"]
+        direction LR
+        dp600["DP-600"] ~~~ az104["AZ-104"] ~~~ az900["AZ-900"] ~~~ ai900["AI-900"]
     end
-    
+
     edu --> certs
+
+    style edu fill:#f5f5f5,stroke:#166534,color:#166534
+    style certs fill:#f5f5f5,stroke:#166534,color:#166534
 ```
 
 ## 🔬 Current Focus
@@ -180,4 +190,3 @@ flowchart LR
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Cataldir&color=blueviolet&style=flat-square" alt="Profile views" />
 </p>
-
