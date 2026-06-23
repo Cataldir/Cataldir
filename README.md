@@ -19,9 +19,10 @@ class RicardoBuilder(Builder):
     def __init__(self):
         self._ricardo = {
             "role": "Senior Solution Engineer @ Microsoft (GBB - AI, Apps & Agents)",
-            "location": "São Paulo, Brazil",
+            "location": "Sao Paulo, Brazil",
             "citations": "106+",
             "revenue_influenced": "US$180M+",
+            "research_focus": "Reliable agentic AI systems",
         }
 
     def add_education(self):
@@ -38,7 +39,7 @@ class RicardoBuilder(Builder):
             "languages": ["Python", "TypeScript", "Rust", "C++"],
             "ai_ml": ["Agent Framework", "PyTorch", "Recommendation Systems", "Context Engineering"],
             "cloud": ["Azure (DP-600, AZ-104)", "Kubernetes", "Bicep", "Terraform"],
-            "domains": ["AI Agents", "MLOps", "Event-Driven Architecture", "AI Governance"],
+            "domains": ["AI Agents", "MLOps", "Event-Driven Architecture", "AI Governance", "Reliable AI Systems"],
         }
         return self
 
@@ -78,24 +79,22 @@ ricardo = (
 
 - **Build** AI-powered enterprise solutions at Microsoft (US$180M+ revenue influenced)
 - **Teach** Machine Learning Engineering & Kubernetes Advanced at FIAP
-- **Research** context engineering and AI governance (106+ academic citations)
+- **Research** reliable agentic AI systems, context engineering, and AI governance (106+ academic citations)
 - **Ship** Azure Samples: Holiday Peak Hub, Tutor, Tayra
 - **Write** about AI, microservices, and human-AI collaboration on [Medium](https://medium.com/@cataldi.ricardo)
+
+Right now I keep FIAP as a focused teaching platform while preparing a doctoral research agenda around reliable AI agent systems.
 
 ## 🎓 Education & Certifications
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {
-  'background': '#f5f5f5',
-  'primaryColor': '#dbeafe',
-  'primaryBorderColor': '#93c5fd',
-  'primaryTextColor': '#1e293b',
-  'secondaryColor': '#e0f2fe',
-  'tertiaryColor': '#f0f9ff',
-  'lineColor': '#64748b',
-  'clusterBkg': '#f5f5f5',
-  'clusterBorder': '#cbd5e1',
-  'titleColor': '#166534'
+%%{init: {'theme':'base', 'themeVariables': {
+    'primaryColor':'#FFB3BA',
+    'primaryTextColor':'#000',
+    'primaryBorderColor':'#FF8B94',
+    'lineColor':'#BAE1FF',
+    'secondaryColor':'#BAE1FF',
+    'tertiaryColor':'#FFFFFF'
 }}}%%
 flowchart TB
     subgraph edu["📚 Education"]
@@ -119,7 +118,7 @@ flowchart TB
 | Project | Description | Tech |
 |---------|-------------|------|
 | **Agentic Microservices** | Book on AI agent architecture patterns | Research, Writing |
-| **Context Engineering** | Research paper on optimal AI context | LaTeX, Theory |
+| **Context Engineering** | Doctoral research runway on context, evaluation, and reliability | LaTeX, Theory |
 | **Holiday Peak Hub** | 21 AI agents for retail commerce (Azure Sample) | Python, FastAPI, MCP |
 | **k8savancado** | Kubernetes Advanced course (9 modules) | Rust, Helm, KEDA |
 
