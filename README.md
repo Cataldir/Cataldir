@@ -44,7 +44,7 @@ class RicardoBuilder(Builder):
 
     def add_achievements(self):
         self._ricardo["achievements"] = [
-            "Academic Coordinator — ML Engineering @ FIAP",
+            "Professor — ML Engineering @ FIAP",
             "US$180M+ revenue-influenced AI solutions",
             "Arctic Code Vault Contributor",
             "Pull Shark x3 | Pair Extraordinaire x2",
