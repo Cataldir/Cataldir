@@ -28,7 +28,7 @@ class RicardoBuilder(Builder):
     def add_education(self):
         self._ricardo["education"] = [
             "M.Sc. Applied Economics — UFRGS (Applied Microeconomics, Labor Economics)",
-            "Graduate Studies Mathematics — USP (Optimization, ODE)",
+            "Graduate Studies in Applied Mathematics — USP/IME (degree not completed; optimization, ODE)",
             "Specialization — IMPA (Pure Mathematics)",
             "B.A. Economics — Mackenzie (Behavioral Economics)",
         ]
@@ -99,7 +99,7 @@ Right now I keep FIAP as a focused teaching platform while preparing a doctoral 
 flowchart TB
     subgraph edu["📚 Education"]
         direction LR
-        msc2["🎓 M.Sc. Economics<br>UFRGS<br>Applied Microeconomics<br>Labor Economics"] ~~~ msc1["📚 Graduate Studies<br>USP<br>Mathematics<br>Optimization, ODE"] ~~~ impa["📐 Specialization<br>IMPA<br>Pure Mathematics"] ~~~ ba["🎓 B.A. Economics<br>Mackenzie<br>Behavioral Economics"]
+        msc2["🎓 M.Sc. Economics<br>UFRGS<br>Applied Microeconomics<br>Labor Economics"] ~~~ msc1["📚 Graduate Studies<br>USP/IME<br>Applied Mathematics<br>Degree not completed"] ~~~ impa["📐 Specialization<br>IMPA<br>Pure Mathematics"] ~~~ ba["🎓 B.A. Economics<br>Mackenzie<br>Behavioral Economics"]
     end
 
     subgraph certs["☁️ Azure Certified"]
